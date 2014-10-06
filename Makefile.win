@@ -1,0 +1,43 @@
+# Project: scan1
+# Makefile created by Dev-C++ 5.5.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o scaner.o error_count.o parser.o code_buffer.o parser_stack.o
+LINKOBJ  = main.o scaner.o error_count.o parser.o code_buffer.o parser_stack.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"
+BIN      = ScanerForMusya.exe
+CXXFLAGS = $(CXXINCS) -g3 -fpermissive
+CFLAGS   = $(INCS) -g3 -fpermissive
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+scaner.o: scaner.cpp
+	$(CPP) -c scaner.cpp -o scaner.o $(CXXFLAGS)
+
+error_count.o: error_count.cpp
+	$(CPP) -c error_count.cpp -o error_count.o $(CXXFLAGS)
+
+parser.o: parser.cpp
+	$(CPP) -c parser.cpp -o parser.o $(CXXFLAGS)
+
+code_buffer.o: code_buffer.cpp
+	$(CPP) -c code_buffer.cpp -o code_buffer.o $(CXXFLAGS)
+
+parser_stack.o: parser_stack.cpp
+	$(CPP) -c parser_stack.cpp -o parser_stack.o $(CXXFLAGS)
