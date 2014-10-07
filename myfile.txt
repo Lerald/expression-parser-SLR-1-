@@ -1,0 +1,108 @@
+lc = kw_ISTINA
+lc = NOR
+Current intermediate code command: {op=op_LOAD_TRUE, type=0, 2358488}
+lc = NOR
+lc = NOR
+lc = NOR
+lc = NOR
+lc = NOR
+lc = NOR
+lc = NOR
+lc = NOR
+lc = NOR
+lc = OPENED_BRACKET
+lc = OPENED_BRACKET
+lc = kw_LOZH
+lc = NAND
+Current intermediate code command: {op=op_LOAD_FALSE, type=2845728, -56}
+lc = NAND
+lc = NAND
+lc = NAND
+lc = NAND
+lc = NAND
+lc = NAND
+lc = NAND
+lc = NAND
+lc = kw_ISTINA
+lc = CLOSED_BRACKET
+Current intermediate code command: {op=op_LOAD_TRUE, type=2845808, -49}
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+Current intermediate code command: {op=op_NAND, type=2357568, -826146816}
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = AND
+lc = AND
+lc = AND
+lc = AND
+lc = AND
+lc = AND
+lc = AND
+lc = AND
+lc = AND
+lc = OPENED_BRACKET
+lc = t_INT
+lc = EQ
+2357552Current intermediate code command: {op=op_LOAD_INT_CONST, type=2845536, 2845744}
+lc = EQ
+lc = EQ
+lc = EQ
+lc = EQ
+lc = EQ
+lc = EQ
+lc = t_INT
+lc = CLOSED_BRACKET
+2357552Current intermediate code command: {op=op_LOAD_INT_CONST, type=2357568, -826146816}
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+Current intermediate code command: {op=op_EQ, type=2357568, -826146816}
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+Current intermediate code command: {op=op_AND, type=2357568, -826146816}
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = CLOSED_BRACKET
+lc = NONE
+lc = NONE
+lc = NONE
+lc = NONE
+lc = NONE
+lc = NONE
+lc = NONE
+lc = NONE
+lc = NONE
+Current intermediate code command: {op=op_NOR, type=2846096, 2845824}
+lc = NONE
+lc = NONE
+Current intermediate code command: {op=op_STOP, type=2358048, -826146816}
+code command: {op=op_LOAD_TRUE, 1}
+code command: {op=op_LOAD_FALSE, 0}
+code command: {op=op_LOAD_TRUE, 1}
+code command: {op=op_NAND, 1}
+code command: {op=op_LOAD_INT_CONST, 0}
+code command: {op=op_LOAD_INT_CONST, 0}
+code command: {op=op_EQ, 0}
+code command: {op=op_AND, 0}
+code command: {op=op_NOR, 0}
+code command: {op=op_STOP, 0}
+Всего ошибок: 0
